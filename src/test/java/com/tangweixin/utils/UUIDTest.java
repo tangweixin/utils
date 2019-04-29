@@ -26,6 +26,9 @@ public class UUIDTest {
 
     public static void main(String[] args) throws Exception {
 //        testNext8();
+        System.out.println(UUID.next8());
+        System.out.println(UUID.next16());
+        System.out.println(UUID.next32());
         System.out.println(UUID.next(10));
     }
 
