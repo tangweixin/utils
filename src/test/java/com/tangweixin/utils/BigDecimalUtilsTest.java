@@ -16,6 +16,10 @@ public class BigDecimalUtilsTest {
         System.out.println(lt(bg("10.02"), bg("10.01")));
         System.out.println(bg("10.01").setScale(0, BigDecimal.ROUND_CEILING));
         System.out.println(bg("10.01").setScale(0, BigDecimal.ROUND_UP));
+        System.out.println(yuan2fen(new BigDecimal("12.004")));
+        System.out.println(yuan2fen(new BigDecimal("12.005")));
+        System.out.println(yuan2fen(new BigDecimal("12.006")));
+        System.out.println(fen2yuan(12004));
 
     }
 }

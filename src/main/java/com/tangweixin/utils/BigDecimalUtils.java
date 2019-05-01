@@ -162,12 +162,12 @@ public final class BigDecimalUtils {
 
     /**
      * 元转分
-     *
+     * 四舍五入
      * @param money
      * @return
      */
     public static Integer yuan2fen(BigDecimal money) {
-        return money.multiply(new BigDecimal("100")).intValue();
+        return money.multiply(new BigDecimal("100")).setScale(0, BigDecimal.ROUND_HALF_UP).intValue();
     }
 
     /**
