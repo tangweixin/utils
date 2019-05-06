@@ -34,13 +34,15 @@ System.out.println(UUID.next(10));      // d56w98ShrZ
 ```
 
 
-UUID示例代码
+BigDecimalUtils示例代码
 ```java
 
-// 生成随机UUID
-System.out.println(UUID.next8());       // pkwCiIID
-System.out.println(UUID.next16());      // xMSqhNdENrppgbwP
-System.out.println(UUID.next32());      // fd7903bc450f45f6a1ae93608a4f46ca
-System.out.println(UUID.next(10));      // d56w98ShrZ
-
+// 比较两个数大小，元和分转换
+System.out.println(ge(bg("10.00"), bg("10.01")));       // false
+System.out.println(lt(bg("10.02"), bg("10.01")));       // false
+System.out.println(bg("10.01").setScale(0, BigDecimal.ROUND_CEILING));  // 11
+System.out.println(bg("10.01").setScale(0, BigDecimal.ROUND_UP));       // 11
+System.out.println(yuan2fen(new BigDecimal("12.004")));         // 1200
+System.out.println(yuan2fen(new BigDecimal("12.005")));         // 1201
+System.out.println(fen2yuan(12004567));                      // 120045.67
 ```
