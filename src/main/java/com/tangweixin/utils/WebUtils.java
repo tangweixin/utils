@@ -28,7 +28,7 @@ import java.util.Map;
  * @author thomas
  * @date 2019-04-30
  */
-public class WebUtils {
+public final class WebUtils {
 
     /**
      * 获得请求的基础路径.

@@ -26,7 +26,7 @@ import java.util.Map;
  * @author thomas
  * @date 2019-04-30
  */
-public class R extends HashMap<String, Object> {
+public final class R extends HashMap<String, Object> {
 
     /**
      *

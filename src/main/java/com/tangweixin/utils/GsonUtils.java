@@ -27,7 +27,7 @@ import java.util.Map;
  * @author thomas
  * @date 2019-04-29
  */
-public class GsonUtils {
+public final class GsonUtils {
 
     private static Gson gson;
     private static Gson gsonMin;

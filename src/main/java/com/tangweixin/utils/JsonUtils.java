@@ -28,7 +28,7 @@ import java.util.List;
  * @author thomas
  * @date 2019-04-30
  */
-public class JsonUtils {
+public final class JsonUtils {
 
     /**
      * 将Java对象转换为json字符串.

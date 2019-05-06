@@ -32,3 +32,15 @@ System.out.println(UUID.next32());      // fd7903bc450f45f6a1ae93608a4f46ca
 System.out.println(UUID.next(10));      // d56w98ShrZ
 
 ```
+
+
+UUID示例代码
+```java
+
+// 生成随机UUID
+System.out.println(UUID.next8());       // pkwCiIID
+System.out.println(UUID.next16());      // xMSqhNdENrppgbwP
+System.out.println(UUID.next32());      // fd7903bc450f45f6a1ae93608a4f46ca
+System.out.println(UUID.next(10));      // d56w98ShrZ
+
+```
