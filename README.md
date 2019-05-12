@@ -46,3 +46,13 @@ System.out.println(yuan2fen(new BigDecimal("12.004")));         // 1200
 System.out.println(yuan2fen(new BigDecimal("12.005")));         // 1201
 System.out.println(fen2yuan(12004567));                      // 120045.67
 ```
+
+使用
+```xml
+<!-- https://mvnrepository.com/artifact/com.github.tangweixin/utils -->
+<dependency>
+    <groupId>com.github.tangweixin</groupId>
+    <artifactId>utils</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
