@@ -85,7 +85,7 @@ public final class WebUtils {
      * @return
      */
     public static String getIp(HttpServletRequest request) {
-        return getIp(request, "remoteip", "x-real-ip", "x-forwarded-for");
+        return getIp(request, "x-real-ip", "remoteip", "x-forwarded-for");
     }
 
     /**

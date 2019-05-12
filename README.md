@@ -46,6 +46,16 @@ System.out.println(yuan2fen(new BigDecimal("12.005")));         // 1201
 System.out.println(fen2yuan(12004567));                      // 120045.67
 ```
 
+
+WebUtils获取客户端真实IP.
+```java
+
+// 获取客户端真实IP地址
+WebUtils.getIp();       // 
+WebUtils.getIp(request, "x-real-ip", "remoteip", "x-forwarded-for", "some head name");    // 获取客户端真实IP地址
+```
+
+
 使用
 ```xml
 <!-- https://mvnrepository.com/artifact/com.github.tangweixin/utils -->
