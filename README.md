@@ -6,7 +6,6 @@
 
 > 仅限个人使用，不提供技术支持和文档，请谨慎使用！
 
-
 Json示例代码
 ```java
 
@@ -53,6 +52,6 @@ System.out.println(fen2yuan(12004567));                      // 120045.67
 <dependency>
     <groupId>com.github.tangweixin</groupId>
     <artifactId>utils</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 ```
